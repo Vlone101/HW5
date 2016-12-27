@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+table{
+    margin:0 auto;
+    border-collapse:collapse;
+    border-spacing:0;
+    width:600px;
+    height:600px;
+}
+td{
+    border:10px solid black;
+}
