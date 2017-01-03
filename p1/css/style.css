@@ -15,7 +15,7 @@ body {
     font-size: 14px;
 }
 
-/*меню*/
+
 header {
     height: 35px;
     background: #075190;
@@ -52,14 +52,13 @@ header li.flag a {
     color: #fff;
 }
 
-/*форма*/
 
 .form {
     background: rgba(0,0,0,0.63);
     margin: 0 auto;
     margin-top: 150px;
     width: 565px;
-    height: 615px;
+    height: 630px;
     text-align: center;
     border: 1px solid black;
 }
@@ -93,7 +92,22 @@ hr {
     margin-bottom: 40px;
 }
 
-/*Линия с ОУ*/
+.login-facebook{
+    background: #364e8c;
+    padding: 10px 20px 10px 0;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.fa-facebook{
+    float: left;
+    font-size: 20px;
+    border-right: 2px solid #4d66a6;
+    height: 23px;
+    margin: -10px 0 0 20px;
+    padding: 10px 20px 0 0;
+}
 
 .ou {
     font-size: 14px;
@@ -121,9 +135,6 @@ hr {
     border-bottom: 1px solid #000;
 }
 
-
-
-
 input[type="text"], [type="email"],[type="password"] {
     display: block;
     margin: 15px auto;
@@ -141,6 +152,10 @@ input {
     color: #4e9dd5;
 }
 
+input:focus, input:hover{
+    background-color: #1b5288;
+    box-shadow: 0 0 7px 2px #4d87b2;
+}
 
 .checkbox {
     margin: 0 140px;
@@ -161,7 +176,7 @@ input {
 }
 
 p {
-    margin: 0 125px;
+    margin: 0 130px;
     padding-bottom: 20px;
     color: #fff;
 }
